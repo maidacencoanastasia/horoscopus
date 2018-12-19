@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Landing Page Template With Flexbox</title>
+<!-- pentru fonturi, arata gine si asa dar totusi e mai frumos , si daca pot de ce nu -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<!-- иконки смайлика и сердечка, daca doriti sa schimbati accesati linkul -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles2.css">
+    <link rel="shortcut icon" type="image/png" href="photos\Новая папка\ico.png"/>
+</head>
+
+<body id="top">
+
+	<header a class="banner">
+		<h2><a href="index.html">MAPоскопы</a></h2>
+		<nav>
+			<li><button class="mainmenubtn"><a href="#home">Фото</a></li></button>
+			<div class="dropdown">
+  <li><button class="mainmenubtn"><a href="#Prognoses">Zodiac Signs</a></button></li>
+  <div id="dropdown-child" class="dropdown-child">
+				<ul>
+				<li><a href="#Prognoses1">Гороскоп</a></li>
+				<li><a href="#Prognoses2">Знаки Огня</a></li>
+				<li><a href="#Prognoses3">Знаки Земли</a></li>
+				<li><a href="#Prognoses4">Знаки Воздуха</a></li>
+				<li><a href="#Prognoses5">Знаки Воды</a></li>
+				
+				</ul>
+			</div>
+		</div>
+			<li><button class="mainmenubtn"><a href="#Contacts">Рассылка</a></li></button>
+		
+	</nav>
+	</header>
+
+
+	<section class="hero parallax-window" data-parallax="scroll" data-image-src="assets/img/hero.jpg">
+		<a name="hero"></a>
+		<h1>Актуальные гороскопы</h1>
+		<h3>Для каждого</h3>
+		
+	</section>
+
+
+	<section class="our-work"><a id="home"></a>
+		<h3 class="title">Знаки Зодиака</h3>
+		<p>
+			<!-- <div id="cp_widget_bb6bb4ac-af93-49e9-8fe7-3fd6f5891aaf">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_bb6bb4ac-af93-49e9-8fe7-3fd6f5891aaf"; cpo["_fid"] = "A8CA8b-ulVtm";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "http://www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script> -->
+		<a id ="home"></a>
+		<!-- <div id="cp_widget_a3224446-3462-435d-9517-2135fa2c3df2">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_a3224446-3462-435d-9517-2135fa2c3df2"; cpo["_fid"] = "A8CA8b-ulVtm";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "http://www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script> -->
+<!-- <div id="cp_widget_5a514bee-5cb8-4d6a-9619-38634d940bd8">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_5a514bee-5cb8-4d6a-9619-38634d940bd8"; cpo["_fid"] = "A8CA8b-ulVtm";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "http://www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script> -->
+<div id="cp_widget_23711a47-8734-46f4-85c4-749ec3b61f71">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_23711a47-8734-46f4-85c4-749ec3b61f71"; cpo["_fid"] = "A8CA8b-ulVtm";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "http://www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script>
+</p><hr>
+	</section>
+<a id="showHere"></a>
+	<section class="features" ><a name ="Prognoses"></a>
+		<h3 class="title">Prognoses</h3>
+		<a id ="Prognoses1"></a>
+		<div style="position:relative;width:160px;height:190px;overflow:hidden;font:normal 14px verdana,arial;">
+<div style="position:absolute;top:0px;left:0px;width:200px;height:100px;overflow:hidden;">
+	<script type="text/JavaScript">
+		var mydate=new Date();var year=mydate.getYear();
+		if (year < 1000) year+=1900;
+		var day=mydate.getDay();var month=mydate.getMonth();
+		var daym=mydate.getDate();
+		if (daym<10)daym="0"+daym;
+		var dayarray=new Array('Вск','Пнд','Втр','Срд','Чтв','Птн','Сбт');
+		var montharray=new Array('Янв','Фев','Мар','Апр','Мая','Июн','Июл','Авг','Сен','Окт','Ноя','Дек');
+		document.write("<b>Гороскоп</b> на "+dayarray[day]+", "+daym+" "+montharray[month]);
+	</script>
+		<noscript>У вас отключен яваскрипт. Пожалуйста, включите поддержку яваскрипт в настройках своего браузера, в противном случае вы не сможете прочитать свой гороскоп на этот день от астрологического сайта <a href="http://astroscope.ru/">Гороскопы на каждый день, гороскоп на неделю, гороскоп на текущий год</a>.</noscript></div>
+		
+		
+<div style="position:absolute;top:70px;left:45px;width:70px;height:70px;overflow:hidden;"><img src="http://astroscope.ru/img/160bg.gif" alt="гороскоп" border="0"></div>
+<div style="position:absolute;top:25px;left:0px;width:500px;height:500px;overflow:hidden;"><img src="http://astroscope.ru/img/160.gif"  alt="" usemap="#astroscope" border="0"></div>
+<div style="position:absolute;text-align:center;top:14px;left:0px;width:300px;height:50px;overflow:hidden;"><font color="#000040"><a href="http://astroscope.ru" target="_blank"><font color="#000000"></font></a></font></div>
+<map name="astroscope">
+<area shape="rect" coords="70,10,95,35"     href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=aries","aries","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Овен">
+<area shape="rect" coords="100,20,125,45"   href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=taurus","taurus","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Телец">
+<area shape="rect" coords="120,45,145,70"   href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=gemini","gemini","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Близнецы">
+<area shape="rect" coords="125,75,150,100"  href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=cancer","cancer","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Рак">
+<area shape="rect" coords="110,100,140,125" href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=leo","leo","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Лев">
+<area shape="rect" coords="90,120,120,145"  href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=virgo","virgo","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Дева">
+<area shape="rect" coords="60,125,90,150"   href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=libra","libra","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Весы">
+<area shape="rect" coords="35,120,60,145"   href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=scorpio","scorpio","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Скорпион">
+<area shape="rect" coords="15,95,45,120"    href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=sagittarius","sagittarius","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Стрелец">
+<area shape="rect" coords="5,65,35,90"      href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=capricorn","capricorn","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Козерог">
+<area shape="rect" coords="15,35,40,60"     href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=aquarius","aquarius","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Водолей">
+<area shape="rect" coords="40,15,70,40"     href="javascript:void(0)" onclick='window.open("http://astroscope.ru/goroscopes.php?sgn=pisces","pisces","width=400,height=400,scrollbars,toolbar=0,status=0")' title="Рыбы">
+<area shape="default" href="http://astroscope.ru">
+</map>
+</div>
+<br>
+<hr>
+	 <script type="text/javascript" src="https:///horo.ua/informers/js?type=3&width=240&theme=1"></script> 
+<br><hr>
+		<a id ="Prognoses2"></a>
+		<p>FIRE</p>
+<div id="cp_widget_feb2ab19-2b51-4f96-912c-8bca4e0502d2">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_feb2ab19-2b51-4f96-912c-8bca4e0502d2"; cpo["_fid"] = "AoIARZOjlFzj";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "http://www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script>
+		<br><hr>
+		<a id ="Prognoses3"></a>
+		<p>EARTH</p>
+<div id="cp_widget_305a585d-e1c9-462f-aa7f-e803a583d277">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_305a585d-e1c9-462f-aa7f-e803a583d277"; cpo["_fid"] = "AwFAXaOpldG6";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "http://www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script>
+		<br><hr>
+		<a id ="Prognoses4"></a>
+		<p>AIR</p>
+<div id="cp_widget_4091a1e1-090f-4cd2-ba53-baa5567c1db1">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_4091a1e1-090f-4cd2-ba53-baa5567c1db1"; cpo["_fid"] = "AUBAQbeQllR_";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "http://www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script>
+		<br><hr> 
+		<a id ="Prognoses5"></a>
+		<p>Water</p>
+<div id="cp_widget_ac33c361-410a-4058-8c49-8b2c092fd463">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_ac33c361-410a-4058-8c49-8b2c092fd463"; cpo["_fid"] = "AkPAeYuGmN7A";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "http://www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script>
+		<br><hr>
+		
+        
+
+	</section>
+	
+<a id="Contacts"></a>
+<section class="contact">
+		<h3 class="title">Join our newsletter</h3>
+		<p>Подпишитесь на нашу рассылку если хотите всегда быть в центре событий и знать последние новости. Начинайте свой день с правильного гороскопа.</p>
+		<hr>
+
+		<form action="mail.php" method="post">
+			<input type="email" placeholder="Email" name="email">
+			<button type="submite" class="btn">Subscribe now</button>
+		</form>
+	</section>
+	
+	<footer>
+		<ul>
+			<li><a href="https://twitter.com/?lang=ru"><i class="fa fa-twitter-square"></i></a></li>
+			<li><a href="https://www.facebook.com/people/%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D0%B8%D1%8F-%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0-%D0%9C%D0%B0%D0%B9%D0%B4%D0%B0%D1%87%D0%B5%D0%BD%D0%BA%D0%BE/100005618323756"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="https://www.snapchat.com/"><i class="fa fa-snapchat-square"></i></a></li>
+			<li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-square"></i></a></li>
+			<li><a href="https://github.com/usarb/ppw2018"><i class="fa fa-github-square""></i></a></li>
+		</ul>
+		<p>Made by <a href="https://vk.com/anastasiaradion" target="_blank">Maidacenco A IS11Z</a>.</p>
+		<p>Обращайтесь :)</p>
+	</footer>
+	<div id="dropdown-child" class="pozitionare">
+		<ul>
+			<li><a class="buton-top activeb" href="#top">&#8657;Наверх&#8657;</a></li>
+		</ul>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="./assets/js/parallax.min.js"></script>
+	<script src="./assets/js/scripts.js"></script>
+	
+
+</body>
+
+</html>
