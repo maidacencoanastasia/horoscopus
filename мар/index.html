@@ -30,7 +30,7 @@
 		</nav>
 	</header>
 
-<a name="hero"></a>
+<a id="hero"></a>
 	<section class="hero parallax-window" data-parallax="scroll" data-image-src="assets/img/hero.jpg">
 		<h1>Актуальные гороскопы</h1>
 		<h3>Для каждого</h3>
@@ -38,7 +38,7 @@
 	</section>
 
 
-	<section class="our-work"><a name="home"></a>
+	<section class="our-work"><a id="home"></a>
 		<h3 class="title">Some of our HOROSCOPE</h3>
 		<p>Начнем с того, что гороскоп – это картина построения планет во время рождения человека. Каждый человек имеет свою личную и неповторимую картину, поскольку планеты находятся в постоянном движении.
 Гороскоп – это своего рода марка компании-производителя под названием «Природа». Он рассказывает о возможных «противопоказаниях», объясняет характер человека и помогает определить показания к применению лучших способностей, развитие которых запустит механизм реализации. Гороскоп становится проводником информации о характере энергий, поступающих от планет. Сам по себе процесс составления гороскопа может показаться не особо увлекательным. Это очень кропотливая работа, требующая точности. Для получения гороскопа необходимы астрономические данные, которые, в свою очередь, дают нам координаты движения планет по орбите. За каждым астрологическим прогнозом стоит взаимодействие человека и природных циклов небесных тел Солнечной системы, которое помогает нам увидеть те нюансы, которые часто скрыты от нас. В любом случае, гороскоп лучше всего воспринимать как целостную науку о людях в целом и личности в частности.
@@ -53,7 +53,7 @@
 	</section>
 	
 
-	<section class="features" ><a name ="Prognoses"></a>
+	<section class="features" ><a id ="Prognoses"></a>
 		<h3 class="title">Что вы можете у нас заказать</h3>
 		<p>Для начала Вы можете почитать поподробнее...</p>
 		<hr>
@@ -78,7 +78,7 @@
 	</section>
 
 
-	<section class="reviews"><a name="About"></a>
+	<section class="reviews"><a id="About"></a>
 		<h3 class="title">What others say:</h3>
 
 		<p class="quote">Я не верю в астрологию. Мой знак – Стрелец, а Стрельцы по природе скептики.</p>
@@ -91,14 +91,14 @@
 		<p class="author">— из письма к проф. Раману, 6 сентября 1947г.</p>
 		<hr>
 	</section>
-	<a name="goro">
+	<a id="goro">
 	<section class="reviews1">
 		<div id="oculus-fsp"></noindex><a href="https://oculus.ru/goroskop_na_segodnya/feng-shui.html" id="oculus-fsp-link">Гороскоп на сегодня
 		</a></div>
 		<SCRIPT LANGUAGE = "JavaScript" charset="windows-1251" src="https://oculus.ru/export/js/fsp.js"></SCRIPT>
 	</section>
 
-<section class="contact"><a name="Contacts"></a>
+<section class="contact"><a id="Contacts"></a>
 		<h3 class="title">Join our newsletter</h3>
 		<p>Подпишитесь на нашу рассылку если хотите всегда быть в центре событий и знать последние новости. Начинайте свой день с правильного гороскопа.</p>
 		<hr>
@@ -122,6 +122,7 @@
 	</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="./assets/js/parallax.min.js"></script>
+		<script src="./assets/js/scripts.js"></script>
 	<script>
 		$(document).ready(function(){
 			var fixedHeader = $('header');
@@ -131,8 +132,6 @@
 				addFixed(fixedHeader, navFixedClass);				
 			});
 		});
-
-
 		function addFixed(fixedHeader, navFixedClass){
 			if($(this).scrollTop() > $('header').height()){
 				fixedHeader.addClass(navFixedClass);
@@ -142,5 +141,4 @@
 		}
 	</script>
 </body>
-
 </html>
